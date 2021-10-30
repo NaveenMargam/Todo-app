@@ -1,0 +1,65 @@
+body {
+  padding: 50px;
+  background-color: #66ccff;
+  font-family: sans-serif;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  width: 165px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #0066ff;
+  color: #fff;
+  border: 2px solid #0066ff;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.btn {
+  padding: 3px;
+  border: 1px solid #0066ff;
+}
+button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.list {
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  list-style: none;
+  font-size: 16px;
+  width: 180px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+}
